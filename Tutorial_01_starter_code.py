@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from bisection import *
 from dist import *
 
-# Define a function witha root where the horizontal distanc equals R.
+# Define a function with a root where the horizontal distanc equals R.
 def F(theta):
     return
 
