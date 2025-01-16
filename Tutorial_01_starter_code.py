@@ -1,21 +1,22 @@
 import numpy as np
 import matplotlib.pyplot as plt
-from bisection import *
+from Root_finding import *
+from Tutorial_01.bis_1 import bis
 from dist import *
 
 # Define a function witha root where the horizontal distanc equals R.
 def F(theta):
-    return
+    return dist(theta,c,g,v0) - R
 
-v0=
-c=
-g=
-R = 
+v0= 100
+c= 0.01
+g= 9.81
+R = 85
 eps_x =    # The maximal error is stated in the assignment!
 eps_f = 
 kMax = 
 # First task: solution(s) for R=85.0 (m).
-theta, ... = bisect( ... )
+theta, ... = bis( ... )
 if conv:
     print("First solution: R=%f, theta=%f +/- %f." % (R,theta,err))
 else:
